@@ -26,4 +26,6 @@ include "platform-services:oauth-server"
 include "integration-test"
 include 'platform-services:oauth-server'
 findProject(':platform-services:oauth-server')?.name = 'oauth-server'
+include 'platform-services:zipkin-server'
+findProject(':platform-services:zipkin-server')?.name = 'platform-services/zipkin-server'
 
